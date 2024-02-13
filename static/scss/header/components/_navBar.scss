@@ -1,0 +1,46 @@
+// .navbar {
+//     height: 100%;
+//     width: 100%;
+//     margin-top: 0;
+//     margin-bottom: 0;
+//     max-height: 13.5vh;
+//     position: fixed;
+//     top: 0;
+// }
+
+// .navbar-toggler {
+//     margin-right: 5%;
+// }
+
+// .container-fluid {
+//     margin: 0 0.5%;
+// }
+
+.nav-link {
+    margin: 0;
+    padding: 0;
+    color: #198754;
+    font-weight: 500;
+    letter-spacing: 2%;
+    transition: 0.3s;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.dropdown-item {
+    transition: 0.5s;
+
+    &:hover {
+        color: white;
+        background-color: #ffc107;
+    }
+}
+
+.btn-header {
+    padding: 1% 4%;
+    letter-spacing: 3%;
+    font-weight: 400;
+    transition: 0.3s;
+}
