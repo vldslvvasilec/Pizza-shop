@@ -7,10 +7,16 @@
         margin: 1% 0;
     }
 
+
     .card-group {
         flex-direction: column;
         gap: 0;
         align-items: center;
+        margin-bottom: 0;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     .card-item {
